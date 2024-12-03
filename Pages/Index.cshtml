@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p class="lead">Your secret value is:</p>
+    <pre class="bg-light p-3 border rounded">@ViewData["SecretValue"]</pre>
+</div>
